@@ -1,0 +1,16 @@
+{
+  "name": "npm-modules",
+  "version": "1.0.0",
+  "description": "```\r npm init\r ```\r ####下载包\r ```\r npm install jquery\r ```\r ####下载包，并加到package里面\r ```\r npm install jquery -S\r ```",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.2"
+  }
+}

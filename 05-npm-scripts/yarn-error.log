@@ -1,0 +1,46 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Users\caijw\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;D:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program1\mysql-5.6.25-winx64\bin;C:\Program Files\MongoDB\Server\3.0\bin;D:\Program Files\python3.6\Scripts\;D:\Program Files\python3.6\;C:\Users\caijw\AppData\Local\Microsoft\WindowsApps;C:\Users\caijw\AppData\Roaming\npm;D:\ffmpeg\bin;E:\Program Files\gradle-3.2\bin;
+
+Yarn version: 
+  0.22.0
+
+Node version: 
+  6.10.2
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "5-npm-scripts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "dependencies": {},
+    "devDependencies": {
+      "nodemon": "^1.9.2"
+    },
+    "scripts": {
+      "start": "node app",
+      "dev": "nodemon app",
+      "test": "node test",
+      "test-watch": "nodemon test"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.62.173:443
+      at Object.exports._errnoException (util.js:1018:11)
+      at exports._exceptionWithHostPort (util.js:1041:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
